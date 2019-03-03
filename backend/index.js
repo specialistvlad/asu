@@ -1,15 +1,4 @@
-var express = require("express");
-var app = express();
-
-app.get("/", function(req, res) {
-  res.send("Hello World!");
-});
-
-app.get("/teachers", function(req, res) {
-  res.json([
-    {
-      id: 1,
-      name: "Frozen yoghurt",
+yoghurt",
       calories: 159,
       fat: 6.0,
       carbs: 24,
